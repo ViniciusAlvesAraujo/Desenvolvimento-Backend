@@ -1,27 +1,31 @@
 package com.example.jogos.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sun.istack.NotNull;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Jogo {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @NotNull
     private String nome;
     private String descricao;
+
+    @NotNull
     private String imagem;
+
+    @NotNull
     private double preco;
     @JsonProperty("esta_favoritado")
     private boolean estaFavoritado;
-
-    public Jogo() {
-    }
-
-    public Jogo(int id, String nome, String descricao, String imagem, double preco, boolean estaFavoritado) {
-        this.id = id;
-        this.nome = nome;
-        this.descricao = descricao;
-        this.imagem = imagem;
-        this.preco = preco;
-        this.estaFavoritado = estaFavoritado;
-    }
 
     public int getId() {
         return id;
