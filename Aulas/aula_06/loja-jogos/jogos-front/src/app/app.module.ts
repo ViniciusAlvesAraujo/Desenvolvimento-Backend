@@ -8,6 +8,7 @@ import { HomeComponent } from './components/views/home/home.component';
 import { HttpClientModule} from '@angular/common/http';
 import { CadastroComponent } from './components/views/cadastro/cadastro.component'
 import { FormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
