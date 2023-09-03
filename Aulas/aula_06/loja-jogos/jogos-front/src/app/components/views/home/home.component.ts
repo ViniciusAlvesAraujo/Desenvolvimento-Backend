@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit{
   }
     fillJogos(){
       this.jogoService.getJogos().subscribe(resposta => {
+        console.log(resposta)
         this.jogos = resposta;
       })
     }

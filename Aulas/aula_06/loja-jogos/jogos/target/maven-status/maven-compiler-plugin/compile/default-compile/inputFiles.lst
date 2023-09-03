@@ -1,5 +1,9 @@
-C:\Users\IFSP\Downloads\loja-jogos\jogos\src\main\java\com\example\jogos\model\Jogo.java
-C:\Users\IFSP\Downloads\loja-jogos\jogos\src\main\java\com\example\jogos\controller\JogoController.java
-C:\Users\IFSP\Downloads\loja-jogos\jogos\src\main\java\com\example\jogos\service\JogoService.java
-C:\Users\IFSP\Downloads\loja-jogos\jogos\src\main\java\com\example\jogos\repository\BancoDeDados.java
-C:\Users\IFSP\Downloads\loja-jogos\jogos\src\main\java\com\example\jogos\JogosApplication.java
+C:\Users\IFSP\Downloads\Desenvolvimento-Backend\Aulas\aula_06\loja-jogos\jogos\src\main\java\com\example\jogos\model\Jogo.java
+C:\Users\IFSP\Downloads\Desenvolvimento-Backend\Aulas\aula_06\loja-jogos\jogos\src\main\java\com\example\jogos\service\JogoService.java
+C:\Users\IFSP\Downloads\Desenvolvimento-Backend\Aulas\aula_06\loja-jogos\jogos\src\main\java\com\example\jogos\controller\CategoriaController.java
+C:\Users\IFSP\Downloads\Desenvolvimento-Backend\Aulas\aula_06\loja-jogos\jogos\src\main\java\com\example\jogos\model\Categoria.java
+C:\Users\IFSP\Downloads\Desenvolvimento-Backend\Aulas\aula_06\loja-jogos\jogos\src\main\java\com\example\jogos\JogosApplication.java
+C:\Users\IFSP\Downloads\Desenvolvimento-Backend\Aulas\aula_06\loja-jogos\jogos\src\main\java\com\example\jogos\repository\JogoRepository.java
+C:\Users\IFSP\Downloads\Desenvolvimento-Backend\Aulas\aula_06\loja-jogos\jogos\src\main\java\com\example\jogos\controller\JogoController.java
+C:\Users\IFSP\Downloads\Desenvolvimento-Backend\Aulas\aula_06\loja-jogos\jogos\src\main\java\com\example\jogos\service\CategoriaService.java
+C:\Users\IFSP\Downloads\Desenvolvimento-Backend\Aulas\aula_06\loja-jogos\jogos\src\main\java\com\example\jogos\repository\CategoriaRepository.java

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { Jogo } from '../model/jogo';
 
 @Injectable({
@@ -21,6 +21,19 @@ export class JogoService {
   }
 
   public favoritarjogo(id: number): Observable<Jogo> {
-    return this.httpClient.put<Jogo>(this.rota + "/favoritar/" + id, null); 
+    return this.httpClient.put<Jogo>(this.rota + "/favoritar/" + id, null);
+  }
+
+  private jogoASerExcluidoSubject  = new BehaviorSubject<any>(null);
+  jogoASerExcluido$ = this.jogoASerExcluidoSubject.asObservable();
+
+  setJogoASerExcluido(jogo: any){
+    this.jogoASerExcluidoSubject.next(jogo);
+  }
+
+  deletarJogo(id: number){
+    console.log("Chamou Service Jogo")
+    this.httpClient.delete("http://localhost:8080/jogos/" + id).subscribe();
+    window.location.reload();
   }
 }

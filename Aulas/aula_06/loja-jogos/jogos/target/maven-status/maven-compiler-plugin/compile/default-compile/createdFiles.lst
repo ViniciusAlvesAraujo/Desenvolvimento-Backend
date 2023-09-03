@@ -1,0 +1,9 @@
+com\example\jogos\JogosApplication.class
+com\example\jogos\repository\JogoRepository.class
+com\example\jogos\repository\CategoriaRepository.class
+com\example\jogos\service\JogoService.class
+com\example\jogos\controller\JogoController.class
+com\example\jogos\model\Categoria.class
+com\example\jogos\model\Jogo.class
+com\example\jogos\service\CategoriaService.class
+com\example\jogos\controller\CategoriaController.class

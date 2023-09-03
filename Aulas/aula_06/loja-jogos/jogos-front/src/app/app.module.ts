@@ -8,14 +8,18 @@ import { HomeComponent } from './components/views/home/home.component';
 import { HttpClientModule} from '@angular/common/http';
 import { CadastroComponent } from './components/views/cadastro/cadastro.component'
 import { FormsModule } from '@angular/forms';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { ModalExclusaoComponent } from './components/shared/modal-exclusao/modal-exclusao.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
     HomeComponent,
-    CadastroComponent
+    CadastroComponent,
+    NavbarComponent,
+    ModalExclusaoComponent
   ],
   imports: [
     BrowserModule,

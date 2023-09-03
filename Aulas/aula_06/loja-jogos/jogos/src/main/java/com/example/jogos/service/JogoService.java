@@ -33,4 +33,8 @@ public class JogoService {
         }
         return null;
     }
+
+    public void excluir(int id){
+        jogoRepository.deleteById(id);
+    }
 }
